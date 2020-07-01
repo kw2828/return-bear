@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Workpal`,
-    description: `Workpal is an AI assistant to help busy professionals materialize their goals by managing their time and health.`,
+    title: `ReturnBear`,
+    description: `Returns are such a hassle. At ReturnBear we make returns easy and keep your customers happy. We help you free up your reverse logistic bottlenecks.`,
     author: `kevincwu`,
   },
   plugins: [
@@ -18,13 +18,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Workpal`,
-        short_name: `Workpal`,
+        name: `ReturnBear`,
+        short_name: `ReturnBear`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/workpal_logo.png`, // This path is relative to the root of the site.
+        //icon: `src/images/workpal_logo.png`, // This path is relative to the root of the site.
       },
     },
     {
