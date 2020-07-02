@@ -399,8 +399,8 @@ input:focus {
   }
 
   input {
-    width: 50%;
-    min-width: 190px;
+    width: 40%;
+    min-width: 170px;
     height: 45px;
     border-radius: 10px 0px 0px 10px; /* top left, top right, bottom right, bottom left */
     padding-left: 20px;

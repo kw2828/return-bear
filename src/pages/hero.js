@@ -62,7 +62,7 @@ export default class HeroPage extends React.Component {
                     Returns are unbearble.<br /> We make it beary easy
                   </h1>
                   <p className="info-subtext">
-                  Returns are such a hassle. At ReturnBear we make your customers happy by making. We help you free up your reverse logistic bottlenecks.
+                  Returns are such a hassle. At ReturnBear we make your customers happy by making returns easy. We help you free up your reverse logistic bottlenecks.
                   </p>
                   <form onSubmit={this.handleSubmit} className="form-group">
                         <div className="row">
