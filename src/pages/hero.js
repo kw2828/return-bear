@@ -2,13 +2,11 @@ import React from "react";
 import Layout from "../components/layout";
 import Image from "../components/image";
 import WorkingIcon from '../components/working'
-import WorkingIcon2 from '../components/working-animation'
+import BearMobile from '../components/bear-mobile'
 import SEO from "../components/seo";
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 import Hero from './'
 
-import dv_logo from '../images/hermes/dv_logo.png'
-import mta_logo from '../images/hermes/mta_logo.png'
 
 export default class HeroPage extends React.Component {
     state = {
@@ -56,13 +54,15 @@ export default class HeroPage extends React.Component {
             <div className="Hero">
               <SEO title="Home" />
               <div className="HeroGroup">
-                <div className="mobile-image" />
+                <div className="mobile-image">
+                  <BearMobile/>               
+                </div>
                 <div className="info">
                   <h1>
                     Returns are unbearble.<br /> We make it beary easy
                   </h1>
                   <p className="info-subtext">
-                  Returns are such a hassle. At ReturnBear we keep your customers happy by making returns easy. We help you free up your reverse logistic bottlenecks.
+                  Returns are such a hassle. At ReturnBear we make your customers happy by making. We help you free up your reverse logistic bottlenecks.
                   </p>
                   <form onSubmit={this.handleSubmit} className="form-group">
                         <div className="row">

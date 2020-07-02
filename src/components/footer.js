@@ -2,9 +2,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import './footer.css'
 
-import dv_logo from '../images/hermes/dv_logo.png'
-import mta_logo from '../images/hermes/mta_logo.png'
-
 
 const Footer = ({ siteTitle }) => (
   <div className="Footer">
