@@ -59,7 +59,7 @@ export default class HeroPage extends React.Component {
                 </div>
                 <div className="info">
                   <h1>
-                    Returns are unbearble.<br /> We make it beary easy
+                    Returns are unbearable.<br /> We make it beary easy
                   </h1>
                   <p className="info-subtext">
                   Returns are such a hassle. At ReturnBear we make your customers happy by making returns easy. We help you free up your reverse logistic bottlenecks.
